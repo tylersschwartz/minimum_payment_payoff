@@ -3,7 +3,7 @@
 """
 Created on Thu Jun 27 20:14:29 2019
 
-@author: tylerschwartz
+@author: tylersschwartz
 """
 def get_start_balance():
     """Requests the user's current loan balance, returns an int."""
