@@ -22,7 +22,7 @@ def get_annual_interest():
     """Requests the user's annual interest rate, returns a float."""
     while True:
         try:
-            annual_interest_rate = float(input("Enter your annual interest rate percentage: ")) #0.2
+            annual_interest_rate = float(input("Enter your annual interest rate percentage: "))
             if annual_interest_rate > 0:
                 return annual_interest_rate
             else:
