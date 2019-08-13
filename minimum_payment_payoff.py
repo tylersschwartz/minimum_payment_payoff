@@ -9,7 +9,7 @@ def get_start_balance():
     """Requests the user's current loan balance, returns an int."""
     while True:
         try:
-            balance: int = int(input("Enter your starting balance: "))
+            balance = int(input("Enter your starting balance: "))
             if balance > 0:
                 return balance
             else:
